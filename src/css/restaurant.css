@@ -1,0 +1,42 @@
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.restaurant-card {
+    flex: 1 1 calc(25% - 20px); /* 4 карточки в ряд с отступами */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: calc(25% - 20px);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;/* Ограничение ширины карточки */
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.restaurant-card a:hover {
+    background-color: rgba(66, 97, 250, 0.56);
+    color: #fff;
+    border-radius: 15px;
+}
+
+

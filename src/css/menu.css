@@ -1,0 +1,179 @@
+.menu-container {
+    display: flex;
+}
+
+.menu {
+    flex: 3;
+    padding: 20px;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступы между карточками */
+}
+
+.menu-card {
+    flex: 1 1 calc(25% - 20px); /* 4 карточки в ряд с отступами */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: calc(25% - 20px);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;/* Ограничение ширины карточки */
+}
+
+.menu-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-card button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.cart-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-controls button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cart-controls span {
+    margin: 0 10px;
+}
+
+
+.cart {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.cart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-item-info {
+    flex: 1;
+}
+
+.cart-item-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cart-item-info p {
+    margin: 0;
+}
+
+.cart-controls {
+    display: flex;
+    align-items: center;
+}
+
+.cart-controls button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cart-controls button:hover {
+    background-color: #939191;
+}
+
+.cart-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Кнопка создать заказ */
+.create-order-button {
+    background-color: #4663f1;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.create-order-button:hover {
+    background-color: #60d8bb;
+    transform: scale(1.05);
+}

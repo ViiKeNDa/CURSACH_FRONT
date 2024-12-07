@@ -1,0 +1,49 @@
+.orders {
+    padding: 20px;
+}
+
+.orders h2 {
+    text-align: center;
+}
+
+.orders ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orders li {
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orders li h3 {
+    margin-bottom: 10px;
+}
+
+.orders li p {
+    margin-bottom: 10px;
+}
+
+.orders li ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orders li ul li {
+    margin-bottom: 5px;
+}
+
+/* Стили для статусов */
+.order-item.created {
+    background-color: rgba(255, 190, 190, 0.64);
+}
+
+.order-item.processing {
+    background-color: #ffffcc;
+}
+
+.order-item.completed {
+    background-color: #ccffcc;
+}

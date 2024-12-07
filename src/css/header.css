@@ -1,0 +1,72 @@
+.header {
+    background: rgb(63, 175, 236);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Отступ между хедером и основной частью */
+    height: 50px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-icon {
+    margin-right: 10px;
+    width: 40px; /* Уменьшаем размер изображения */
+    height: 40px; /* Уменьшаем размер изображения */
+    border-radius: 50%; /* Закругляем края */
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-search {
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-button {
+    padding: 5px 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav ul li {
+    margin-left: 20px;
+}
+
+.header-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}

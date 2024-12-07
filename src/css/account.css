@@ -1,0 +1,15 @@
+.account {
+    padding: 20px;
+}
+
+.account h2 {
+    text-align: center;
+}
+
+.account-info {
+    margin-top: 20px;
+}
+
+.account-info p {
+    margin-bottom: 10px;
+}
