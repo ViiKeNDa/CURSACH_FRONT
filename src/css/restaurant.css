@@ -1,42 +1,49 @@
 .restaurant-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    flex-direction: column; /* Расположение элементов в колонку */
+    align-items: center; /* Центрирование элементов по горизонтали */
+    gap: 40px; /* Увеличиваем отступ между карточками */
     padding: 20px;
 }
 
 .restaurant-card {
-    flex: 1 1 calc(25% - 20px); /* 4 карточки в ряд с отступами */
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 20px; /* Увеличиваем внутренние отступы */
     text-align: center;
     box-sizing: border-box;
-    max-width: calc(25% - 20px);
     background: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px; /* Увеличиваем радиус скругления углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Увеличиваем тень */
     overflow: hidden;
-    width: 300px;
-    transition: transform 0.3s ease;/* Ограничение ширины карточки */
-}
-
-.restaurant-card:hover {
-    transform: scale(1.05);
+    width: 600px; /* Увеличиваем ширину карточки в два раза */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .restaurant-card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
+    width: 200px; /* Увеличиваем ширину изображения в два раза */
+    height: 200px; /* Увеличиваем высоту изображения в два раза */
+    border-radius: 10px; /* Увеличиваем радиус скругления углов изображения */
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 30px; /* Увеличиваем отступ снизу изображения */
+}
+
+.restaurant-card .restaurant-name {
+    margin-top: 20px; /* Добавляем отступ сверху для названия ресторана */
+    font-size: 24px; /* Увеличиваем размер шрифта для названия ресторана */
+    margin-bottom: 20px; /* Добавляем отступ снизу для названия ресторана */
+}
+
+.restaurant-card a {
+    background-color: hotpink; /* Розовый фон для кнопки */
+    color: #fff; /* Белый текст */
+    padding: 10px 20px; /* Внутренние отступы для кнопки */
+    border-radius: 15px; /* Скругление углов кнопки */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
 }
 
 .restaurant-card a:hover {
-    background-color: rgba(66, 97, 250, 0.56);
-    color: #fff;
-    border-radius: 15px;
+    background-color: rgba(255, 105, 180, 0.8); /* Затемнение фона при наведении */
 }
-
-

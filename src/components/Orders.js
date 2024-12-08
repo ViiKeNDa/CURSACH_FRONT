@@ -86,7 +86,6 @@ const Orders = () => {
                     {orders.map(order => (
                         <li key={order.id} className={`order-item ${order.status.toLowerCase()}`}>
                             <h3>Заказ #{order.id}</h3>
-                            <p>Адрес доставки: {order.deliveryAddress}</p>
                             <p>Статус: {order.status}</p>
                             <ul>
                                 {order.items.map(item => (

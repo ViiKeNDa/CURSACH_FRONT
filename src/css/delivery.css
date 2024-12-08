@@ -46,13 +46,13 @@
     padding: 5px;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: hotpink;
     color: #fff;
     cursor: pointer;
 }
 
 /* Стили для статусов */
-.delivery-item.new {
+/* .delivery-item.new {
     background-color: #ffcccc;
 }
 
@@ -63,3 +63,5 @@
 .delivery-item.delivered {
     background-color: #ccffcc;
 }
+
+ */

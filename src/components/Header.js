@@ -8,7 +8,7 @@ const Header = ({ userRole }) => {
             <div className="header-content">
                 <Link to="/" className="header-logo">
                     <img src={logo} alt="Иконка сайта" className="header-icon" />
-                    <span className="header-text">Delish Delivery</span>
+                    <span className="header-text">Сеть доставок</span>
                 </Link>
                 {/*<input type="text" placeholder="Поиск ресторана" className="header-search" />*/}
                 {/*<button className="header-button">Укажите адрес доставки</button>*/}

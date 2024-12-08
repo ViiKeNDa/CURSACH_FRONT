@@ -36,7 +36,7 @@
 }
 
 /* Стили для статусов */
-.order-item.created {
+/*.order-item.created {
     background-color: rgba(255, 190, 190, 0.64);
 }
 
@@ -47,3 +47,5 @@
 .order-item.completed {
     background-color: #ccffcc;
 }
+
+ */

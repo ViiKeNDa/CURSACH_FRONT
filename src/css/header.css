@@ -1,12 +1,12 @@
 .header {
-    background: rgb(63, 175, 236);
+    background: hotpink;
     color: #fff;
     padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px; /* Отступ между хедером и основной частью */
-    height: 50px;
+    height: 80px;
 }
 
 .header-content {
@@ -24,14 +24,12 @@
 
 .header-icon {
     margin-right: 10px;
-    width: 40px; /* Уменьшаем размер изображения */
+    width: 50px; /* Уменьшаем размер изображения */
     height: 40px; /* Уменьшаем размер изображения */
-    border-radius: 50%; /* Закругляем края */
 }
 
 .header-text {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 30px;
 }
 
 .header-search {
@@ -54,12 +52,15 @@
 
 .header-nav {
     margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 .header-nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    margin-left: 50px; /* Сдвигаем кнопки ближе к центру на 50px */
 }
 
 .header-nav ul li {

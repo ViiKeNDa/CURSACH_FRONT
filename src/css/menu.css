@@ -1,9 +1,11 @@
 .menu-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu {
-    flex: 3;
+    width: 100%;
     padding: 20px;
 }
 
@@ -37,23 +39,29 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: hotpink;
     color: #fff;
     cursor: pointer;
 }
 
 .cart {
-    flex: 1;
+    width: 100%;
     padding: 20px;
-    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .cart h2 {
     text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .cart ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
@@ -73,33 +81,13 @@
     padding: 5px;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: hotpink;
     color: #fff;
     cursor: pointer;
 }
 
 .cart-controls span {
     margin: 0 10px;
-}
-
-
-.cart {
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    margin-left: 20px;
-}
-
-.cart h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.cart ul {
-    list-style: none;
-    padding: 0;
 }
 
 .cart-item {
@@ -139,7 +127,7 @@
 }
 
 .cart-controls button {
-    background-color: #333;
+    background-color: hotpink;
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -149,7 +137,7 @@
 }
 
 .cart-controls button:hover {
-    background-color: #939191;
+    background-color: #ffa7d1;
 }
 
 .cart-controls button:disabled {
@@ -159,7 +147,7 @@
 
 /* Кнопка создать заказ */
 .create-order-button {
-    background-color: #4663f1;
+    background-color: hotpink;
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -174,6 +162,6 @@
 }
 
 .create-order-button:hover {
-    background-color: #60d8bb;
+    background-color: hotpink;
     transform: scale(1.05);
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MenuCard = ({ item, restaurantId, onAddToCart }) => {
-    const imagePath = require(`../img/restaurant/${restaurantId}/${item.id-(restaurantId-1)*6}.png`);
+    const imagePath = require(`../img/restaurant/${restaurantId}/1.png`);
     return (
         <div className="menu-card">
             <img src={imagePath} alt={item.name} />
